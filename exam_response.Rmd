@@ -137,7 +137,7 @@ census_health <- read_csv("Data_graffiti/ACSST5Y2021.S2703_2023-12-13T175342/ACS
 ```
 
 
-Within this data there is a column called "estimate_total_civilian_noninstitutionalized_population_coverage_alone_or_in_combination_employer_based_health_insurance_alone_or_in_combination_under_19" which might be useful...
+Within this data there is a column called "estimate_total_civilian_noninstitutionalized_population_coverage_alone_or_in_combination_employer_based_health_insurance_alone_or_in_combination_under_19", so here the study object is juvenile population who has health insurance.
 
 Select the column then join the data to our main sf file...remember i am trying to model the density of graffiti here...
 
@@ -215,7 +215,6 @@ census_income3 <-census_income2 %>%
  
  
 ```
-
 
 
 
